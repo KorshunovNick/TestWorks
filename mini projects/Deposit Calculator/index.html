@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="/index.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+        </style>
+</head>
+<body>
+    <div class="row main">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-2">Сумма вклада</div>
+            <div class="col-5"><span id="spansum" startsum>10000</span><input type="range" id ="sum" min="0" step="10000" max="10000000" value="1000000"></div>
+            <div class="col-3 offset-1"><select name="currency" id="currency">
+                <option value="75">Доллар</option>
+                <option value="1" selected>Рубль</option>
+                <option value="79">Евро</option>
+            </select></div>
+        </div>
+      
+        <div class="row align-items-center">
+            <div class="col-6">Срок вклада </div>
+            <div class="col-6"><span id="spantime" start>12 months</span><input type="range" id ="time" min="1" step="1" value ='12' max="60"></div>
+        </div>
+        
+        <div class="row align-items-center">
+            <div class="col-6">Процентная ставка </div>
+            <div class="col-6"><span id="spanpercent" start>5%</span><input type="range" id ="percent" min="0.1" step="0.1" value='5' max="100"></div>
+        </div>
+        <div class="row justify-content-between align-items-center">
+            <div class="col-3">Итоговая сумма  </div>
+            <div class="col-3"><span id="resultSum"></span></div>   
+            <div class="col-3">Доход  </div>
+            <div class="col-3"><span id="profit"></span></div>
+            <div class="col-3">Налог  </div>
+            <div class="col-3"><span id="duty"></span></div>
+        </div>
+    </div>
+    
+</body>
+</html>

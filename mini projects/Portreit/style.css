@@ -1,0 +1,33 @@
+
+body{
+    background: rgb(0, 0, 0);
+    text-align: -webkit-center;
+}
+
+
+.text{
+    display: flex;
+    background-image: url('/jhPCnGuNnH4.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 7px;
+    height: 800px;
+    width: 800px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+    border: 2px solid white;
+    color: white;
+
+}

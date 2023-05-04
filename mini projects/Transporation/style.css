@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.delS {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.message {
+    position: 'fixed';
+    padding: 5px;
+    border: 1px solid black;
+    z-index: 1000;
+
+}
+.sqr {
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    border: 3px solid black;
+    background-color: blue;
+    cursor: grab;
+}
+.parent {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    /* position: relative; */
+}
