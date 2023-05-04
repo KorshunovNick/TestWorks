@@ -1,0 +1,12 @@
+#mainInput {
+    width: 250px;
+}
+.user {
+    padding: 5px;
+}
+.user:hover {
+    border: 1px solid black;
+    color: chartreuse;
+    width: 250px;
+    box-sizing: border-box;
+}

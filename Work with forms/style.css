@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+
+}
+#fix {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+
+.modal {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: lightblue;
+    z-index: 999;
+
+
+
+}

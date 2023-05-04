@@ -1,0 +1,21 @@
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.grid-box>div{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgba(0, 128, 0, 0.715);
+}
+@media screen and (max-width: 800px) {
+    .grid-box {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width: 560px) {
+    .grid-box {
+        grid-template-columns: 100%;
+    }
+}

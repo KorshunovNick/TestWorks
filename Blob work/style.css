@@ -1,0 +1,25 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.user{
+    padding: 20px 0 10px 20px ;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 3px black;
+    background: linear-gradient(rgb(247, 86, 86),rgb(235, 49, 49),rgb(135, 14, 14),rgb(253, 0, 0),rgb(250, 128, 128),rgb(127, 48, 48));
+    color: white;
+}
+.photo {
+   display: flex;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+
+}
+.info>p{
+    margin-bottom: 10px;
+
+}

@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    background: linear-gradient(32deg,rgb(12, 2, 77),darkblue,blue,blue,blue,rgb(19, 165, 214),rgb(73, 185, 250));
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}   
+h1 {
+    font-size: 40px;
+    color: aqua;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: -2px -2px 20px black;
+
+}
+
+#text {
+    padding: 10px;
+    box-shadow: 2px 2px 20px black;
+    background-color: aqua;
+    width: 40%;
+    height: 30%;
+    font-size: 150%;
+    font-weight: 700;
+    font-style: italic;
+    resize: none;
+}
+.metrix {
+    color: aqua;
+    position: absolute;
+    left: 50px;
+}
